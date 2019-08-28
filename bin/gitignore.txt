@@ -1,0 +1,13 @@
+/venv
+
+secret.txt
+
+secrets/
+
+/hidden.txt
+
+cache*
+
+*data
+
+/node_modules/
