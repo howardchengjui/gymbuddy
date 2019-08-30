@@ -24,7 +24,7 @@
             <input type="submit" value="Logout" class="btn btn-xs pull-right"/>
         </form> 
         <h1>Welcome, <c:out value = "${users.first_name}"/></h1>
-        	<a class="btn btn-primary btn-lg " href="/users/${users.id}" role="button">Users</a>
+        	<a class="btn btn-primary btn-lg " href="/users/${users.id}/${fileStorage.id}" role="button">Users</a>
         
     
 </div>
